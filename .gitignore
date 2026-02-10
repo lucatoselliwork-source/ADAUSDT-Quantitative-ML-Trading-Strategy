@@ -246,3 +246,6 @@ BTCUSDT_12h_ohlc.csv
 # Trained model weights (optional)
 # -------------------------
 model_weights.pth
+# VS Code
+.vscode/
+*.code-workspace

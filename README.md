@@ -24,11 +24,10 @@ assessment rather than model complexity.
 
 ## Repository Structure
 
-notebooks/
-- 01_data_loading.ipynb  
-- 02_feature_engineering.ipynb  
-- 03_model_training.ipynb  
-- 04_strategy_validation.ipynb  
+notebooks/ 
+- 01_data_and_feature_engineering.ipynb
+- 02_model_training.ipynb  
+- 03_strategy_validation.ipynb  
 
 src/adausdt_qml/
 - research.py   (research and backtesting utilities)
@@ -89,10 +88,9 @@ polars pytorch requests scipy matplotlib altair tqdm vegafusion
 
 Open the repository in Visual Studio Code and execute the notebooks in order:
 
-1. 01_data_loading.ipynb  
-2. 02_feature_engineering.ipynb  
-3. 03_model_training.ipynb  
-4. 04_strategy_validation.ipynb  
+1. 01_data_and_feature_engineering.ipynb  
+2. 02_model_training.ipynb  
+3. 03_strategy_validation.ipynb  
 
 If market data is not found locally, it will be downloaded automatically.
 

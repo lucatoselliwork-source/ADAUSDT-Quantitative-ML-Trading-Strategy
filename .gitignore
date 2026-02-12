@@ -249,3 +249,8 @@ model_weights.pth
 # VS Code
 .vscode/
 *.code-workspace
+
+# Walk-forward / CV outputs
+cv_summary.csv
+rw_results.csv
+ew_results.csv
